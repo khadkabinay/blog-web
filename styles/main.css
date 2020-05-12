@@ -1,0 +1,63 @@
+.main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    justify-content: space-around;
+    position: relative;
+   
+    
+    
+    
+}
+ 
+
+.picCaption1 {
+ position: absolute;
+ padding: 100px;
+ color: white;
+ font-family: 'Satisfy', cursive;;
+}
+
+
+.picCaption1 a {
+    padding: 30px 40px;
+    margin: 10px;
+    font-size: large;
+    text-decoration: none;
+}
+
+
+.picCaption1 a:hover {
+    text-decoration: blue underline;
+    color: black;
+}
+
+figcaption {
+    margin-left:15px;
+}
+
+
+
+figcaption span a {
+    margin-right: 5px;
+    font-size: 1.3em;
+    padding: 5px 5px;
+    background-color: white;
+    color: red;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0px 7px 10px 0px #b2c5d1;
+}
+
+.newPost a  {
+    background-color: #a8c3ed;
+}
+
+
+figcaption span a:hover {
+    color: #5b5d5e;
+    background-color: #a8c3ed;
+
+}

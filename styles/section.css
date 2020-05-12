@@ -1,0 +1,68 @@
+
+
+.section {
+    grid-area: section;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-gap: 10px;
+   
+   
+}
+
+
+.main img {
+    width: 93%;
+    padding: 10px;
+    position: relative;
+    
+
+}
+
+.main .storyPic {
+ opacity: 0.7;
+}
+
+
+.section .figure {
+width: 90%;
+padding: 5px 5px;
+margin: 10px;
+background-color: #d7f0f5;
+overflow: hidden;
+border-radius: 5px;
+box-shadow: 0px 5px 5px 0px rebeccapurple;
+
+}
+
+
+.section img {
+    width: 100%;
+
+}
+
+.figure h1 {
+    font-family: 'Merienda One', cursive;
+}
+
+
+figcaption button {
+    padding : 10px 20px;
+    background-color: #afc9bb;
+    border-radius: 5px;
+    border: 1px solid #84e0af;
+    font-size: 1.2em;
+   
+}
+
+
+figcaption button a {
+    color:  black;
+    text-decoration: none;
+}
+
+
+
+figcaption button a:hover {
+    color: white;
+    text-decoration: red underline;
+}
