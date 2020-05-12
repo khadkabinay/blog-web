@@ -27,9 +27,13 @@
 
 .picCaption1 {
  position: absolute;
- padding: 90px;
- color: white;
+ padding: 70px;
+ color: #4c5859;
  font-family: 'Satisfy', cursive;;
+}
+
+.picCaption1 p {
+    color: white;
 }
 
 
