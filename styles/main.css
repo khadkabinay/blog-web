@@ -11,25 +11,37 @@
     
     
 }
+
+.main img {
+    width: 93%;
+    padding: 10px;
+    position: relative;
+    
+
+}
+
+.main .storyPic {
+ opacity: 0.7;
+}
  
 
 .picCaption1 {
  position: absolute;
- padding: 100px;
+ padding: 90px;
  color: white;
  font-family: 'Satisfy', cursive;;
 }
 
 
-.picCaption1 a {
+.picCaption1 button  a {
     padding: 30px 40px;
-    margin: 10px;
-    font-size: large;
+    font-size: 1.4em;
     text-decoration: none;
+    border-radius: 5px;
 }
 
 
-.picCaption1 a:hover {
+.picCaption1 button a:hover {
     text-decoration: blue underline;
     color: black;
 }
