@@ -1,56 +1,126 @@
 
-
-.section {
-    grid-area: section;
-    display: grid;
-    grid-template-columns:repeat(4, 1fr);
-    grid-gap: 10px;
-   
-   
-}
-
-
-
-.section .figure {
-width: 90%;
-padding: 5px 5px;
-margin: 10px;
-background-color: #d7f0f5;
-overflow: hidden;
-border-radius: 5px;
-box-shadow: 0px 5px 5px 0px rebeccapurple;
-
-}
+ /* blog-home page section styles */
+    .section {
+        grid-area: section;
+        display: grid;
+        grid-template-columns:repeat(4, 1fr);
+        grid-gap: 10px;
+    
+    
+    }
 
 
-.section img {
-    width: 100%;
 
-}
-
-.figure h1 {
-    font-family: 'Merienda One', cursive;
-}
-
-
-figcaption button {
-    padding : 10px 20px;
-    background-color: #afc9bb;
+    .section .figure {
+    width: 90%;
+    padding: 5px 5px;
+    margin: 10px;
+    background-color: #d7f0f5;
+    overflow: hidden;
     border-radius: 5px;
-    border: 1px solid #84e0af;
-    font-size: 1.2em;
-   
+    box-shadow: 0px 5px 5px 0px rebeccapurple;
+
+    }
+
+
+    .section img {
+        width: 100%;
+
+    }
+
+    .figure h1 {
+        font-family: 'Merienda One', cursive;
+    }
+
+
+    figcaption button {
+        padding : 10px 20px;
+        background-color: #afc9bb;
+        border-radius: 5px;
+        border: 1px solid #84e0af;
+        font-size: 1.2em;
+    
+    }
+
+
+    figcaption button a {
+        color:  black;
+        text-decoration: none;
+    }
+
+
+
+    figcaption button a:hover {
+        color: white;
+        text-decoration: red underline;
+
 }
 
 
-figcaption button a {
-    color:  black;
-    text-decoration: none;
-}
+/* blog post author and its property styles */
 
 
+.info-blog {
+    grid-area: info;
+    
 
-figcaption button a:hover {
-    color: white;
-    text-decoration: red underline;
-}
+    }
+    
+    .info-blog .follow-me button {
+        padding: 10px 30px;
+        background-color: blue;
+        font-size: 1.2em;
+        border-radius: 10px;
+        margin: 20px;
+        
+        
+        
+    }
+    .follow-me button a {
+        list-style: none;
+        color: white;
+        text-decoration: none;
+    }
+
+
+    .info-blog .social-btn i {
+        font-size: 3em;
+        display: inline-block;
+        margin-right: 10px;
+        color: #695f5e;
+    }
+
+    .info-blog .social-btn i:hover {
+        color: #4071e3;
+    }
+
+    .back-btn{
+        width:100%;
+        line-height: 2em;
+        background-color: #e35840;
+        font-size: 1.5em;
+        border-radius: 10px;
+        margin: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        
+        
+
+    }
+    .back-btn a {
+        color: #fafcfc;
+        text-decoration: none;
+
+    }
+
+    .info-blog img {
+        width: 20%;
+        height: 20%;
+        border-radius: 50%;
+    
+        }
+    
+    .info-blog figure {
+            justify-items: center;
+            padding: 10px;
+        }

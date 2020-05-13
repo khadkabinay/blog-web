@@ -1,13 +1,41 @@
-.footer {
-    grid-area: footer;
-    background-color:#babccf;
-}
+    
+    /* home page footer styles */
+    .footer {
+        grid-area: footer;
+        background-color:#babccf;
+    }
 
-.footer{
+    .footer{
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  
- }
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+
+
+    
+    /* blog post page footer style */
+
+
+    .footer-blog{
+        grid-area: ft;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+
+    #blog-container .footer-blog{
+        background-color: #939e9e;
+        color: white;
+    }
+    
+
+    .footer-blog ul {
+        list-style: none;
+        font-size: 1.1em;
+    }
