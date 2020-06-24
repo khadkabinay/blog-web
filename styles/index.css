@@ -207,6 +207,15 @@
         
         
     }
+    .nav-bar ul {
+        display: grid;
+         text-align: center;
+         background-color: #a5cdf2;
+         border-radius: 30px 30px 30px 30px;
+         box-shadow: 0px 3px 3px 0px #92b0f7;
+
+    }
+   
 
     .footer-blog{
         text-align: center;
@@ -243,6 +252,7 @@
          
          
     }
+  
     
     .footer-blog{
         display: flex;
